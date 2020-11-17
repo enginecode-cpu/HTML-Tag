@@ -1,0 +1,22 @@
+h1 {
+  font-size: 22px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+code {
+  background-color: lightgray;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-family: "Consolas", serif;
+}
+
+.example {
+  margin-bottom: 50px;
+}
+
+.input {
+  margin-bottom: 10px;
+}
