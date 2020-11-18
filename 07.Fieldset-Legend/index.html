@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fieldset, legend tag</title>
+</head>
+<body>
+  <div class="example example1">
+    <form>
+      <fieldset>
+        <legend>Coffee Size</legend>
+        <label>
+            <input type="radio" name="size" value="tall" />
+            Tall
+        </label>
+        <label>
+            <input type="radio" name="size" value="grande" />
+            Grande
+        </label>
+        <label>
+            <input type="radio" name="size" value="venti" />
+            Venti
+        </label>
+      </fieldset>
+    </form>
+  </div>
+
+  <div class="example example2">
+    <form>
+      <fieldset disabled>
+        <legend>Coffee Size</legend>
+        <label>
+            <input type="radio" name="size" value="tall" />
+            Tall
+        </label>
+        <label>
+            <input type="radio" name="size" value="grande" />
+            Grande
+        </label>
+        <label>
+            <input type="radio" name="size" value="venti" />
+            Venti
+        </label>
+      </fieldset>
+    </form>
+  </div>
+
+  <div class="example example3">
+    <form id="coffee-size"></form>
+    <fieldset form="coffee-size">
+      <legend>Coffee Size</legend>
+      <label>
+          <input type="radio" name="size" value="tall" />
+          Tall
+      </label>
+      <label>
+          <input type="radio" name="size" value="grande" />
+          Grande
+      </label>
+      <label>
+          <input type="radio" name="size" value="venti" />
+          Venti
+      </label>
+    </fieldset>
+  </div>
+</body>
+</html>
