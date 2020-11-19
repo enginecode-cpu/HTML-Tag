@@ -38,16 +38,3 @@
 
 #### `<datalist>`
 `<input>`에 미리 정의된 옵션을 지정하여 기능을 제공하는 데 사용. `<input>`의 `list`와 `<datalist>`의 `id` 값이 같아야한다.
-
-#### 예제
-<pre>
-<input type="text" list="fruits">
-
-<datalist id="fruits">
-  <option>Apple</option>
-  <option>Orange</option>
-  <option>Banana</option>
-  <option>Mango</option>
-  <option>Fineapple</option>
-</datalist>
-</pre>
