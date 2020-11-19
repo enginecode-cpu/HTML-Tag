@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>select, optgroup, option, datalist tag</title>
+</head>
+<body>
+  <div>
+    <select>
+      <optgroup label="Coffee">
+        <option>Americano</option>
+        <option>Caffe Mocha</option>
+        <option label="Cappuccino" value="Cappuccino"></option>
+      </optgroup>
+      <optgroup label="Latte" disabled>
+        <option>Caffe Latte</option>
+        <option>Vanilla Latte</option>
+      </optgroup>
+      <optgroup label="Smoothie">
+        <option>Plain</option>
+        <option disabled>Strawberry</option>
+        <option disabled>Banana</option>
+        <option>Mango</option>
+      </optgroup>
+    </select>
+  </div>
+
+  <div>
+    <input type="text" list="fruits">
+
+    <datalist id="fruits">
+      <option>Apple</option>
+      <option>Orange</option>
+      <option>Tomato</option>
+      <option>Mango</option>
+    </datalist>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
